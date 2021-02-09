@@ -24,7 +24,7 @@ public class Client {
 
         String line = "";
 
-        while (!line.equal("!over")) {
+        while (!line.equals("!over")) {
             try {
                 line = input.readUTF();
                 out.writeUTF(line);
